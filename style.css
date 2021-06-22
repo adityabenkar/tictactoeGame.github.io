@@ -21,8 +21,6 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  justify-items: center;
-  align-items: center;
   grid-template-columns: repeat(3, auto);
 }
 
@@ -129,7 +127,7 @@ body {
   color: white;
   font-size: 5rem;
   flex-direction: column;
-  text-align:center;
+  text-align: center;
 }
 
 .winning-message button {
