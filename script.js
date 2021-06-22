@@ -40,8 +40,8 @@ function startGame() {
   // winningMessage.classList.remove("show");
 }
 
-function handleClick(e) {
-  const cell = e.target;
+function handleClick(event) {
+  const cell = event.target;
   const currentCell = circleTurn ? CIRCLE_CLASS : X_CLASS;
   placemark(cell, currentCell);
   if (checkWin(currentCell)) {
